@@ -1,8 +1,8 @@
 const inputs = document.querySelectorAll(".length-input");
-const btnChk = document.querySelector("#chk-btn");
+const calculateBtn = document.querySelector("#calculate-btn");
 const outputEl = document.querySelector("#output");
 
-btnChk.addEventListener("click", calculateArea);
+calculateBtn.addEventListener("click", calculateArea);
 
 function calculateArea(a, b) {
     const base = inputs[0].value;

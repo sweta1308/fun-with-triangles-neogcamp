@@ -1,8 +1,8 @@
 const input = document.querySelectorAll(".input-length");
-const btnCheck = document.querySelector("#btn-check");
+const btnCalculate = document.querySelector("#btn-calculate");
 const textOutput = document.querySelector("#output");
 
-btnCheck.addEventListener("click", calculateHypotenuse);
+btnCalculate.addEventListener("click", calculateHypotenuse);
 
 function calculateSquare(a, b) {
     const sum = a*a + b*b;
