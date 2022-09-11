@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
@@ -18,76 +19,92 @@
     <form class="form-quiz">
         <div class="question-container">
             <p>An angle which is greater than 90˚ is called ______ angle.</p>
-            <label><input type="radio" name="question1" value="Acute">Acute</label>
-            <label><input type="radio" name="question1" value="Obtuse">Obtuse</label>
-            <label><input type="radio" name="question1" value="Right">Right</label>
+            <label><input class="quiz-input" type="radio" name="question1" value="Acute">Acute</label>
+            <label><input class="quiz-input" type="radio" name="question1" value="Obtuse">Obtuse</label>
+            <label><input class="quiz-input" type="radio" name="question1" value="Right">Right</label>
         </div>
 
         <div class="question-container">
             <p>What is the sum of three angles of a triangle?</p>
-            <label><input type="radio" name="question2" value="90˚">90˚</label>
-            <label><input type="radio" name="question2" value="60˚">60˚</label>
-            <label><input type="radio" name="question2" value="180˚">180˚</label>
+            <label><input class="quiz-input" type="radio" name="question2" value="90˚">90˚</label>
+            <label><input class="quiz-input" type="radio" name="question2" value="60˚">60˚</label>
+            <label><input class="quiz-input" type="radio" name="question2" value="180˚">180˚</label>
         </div>
 
         <div class="question-container">
             <p>Which triangle has one 90˚ in it?</p>
-            <label><input type="radio" name="question3" value="Equilateral">Equilateral</label>
-            <label><input type="radio" name="question3" value="Right angled">Right angled</label>
-            <label><input type="radio" name="question3" value="Scalene">Scalene</label>
+            <label><input class="quiz-input" type="radio" name="question3" value="Equilateral">Equilateral</label>
+            <label><input class="quiz-input" type="radio" name="question3" value="Right angled">Right angled</label>
+            <label><input class="quiz-input" type="radio" name="question3" value="Scalene">Scalene</label>
         </div>
 
         <div class="question-container">
             <p>Which triangle has all equal sides?</p>
-            <label><input type="radio" name="question4" value="Equilateral">Equilateral</label>
-            <label><input type="radio" name="question4" value="Scalene">Scalene</label>
-            <label><input type="radio" name="question4" value="Isosceles">Isosceles</label>
+            <label><input class="quiz-input" type="radio" name="question4" value="Equilateral">Equilateral</label>
+            <label><input class="quiz-input" type="radio" name="question4" value="Scalene">Scalene</label>
+            <label><input class="quiz-input" type="radio" name="question4" value="Isosceles">Isosceles</label>
         </div>
 
         <div class="question-container">
             <p>Which triangle has no equal sides?</p>
-            <label><input type="radio" name="question5" value="Equilateral">Equilateral</label>
-            <label><input type="radio" name="question5" value="Isosceles">Isosceles</label>
-            <label><input type="radio" name="question5" value="Scalene">Scalene</label>
+            <label><input class="quiz-input" type="radio" name="question5" value="Equilateral">Equilateral</label>
+            <label><input class="quiz-input" type="radio" name="question5" value="Isosceles">Isosceles</label>
+            <label><input class="quiz-input" type="radio" name="question5" value="Scalene">Scalene</label>
         </div>
 
         <div class="question-container">
             <p>Which of these can form a triangle?</p>
-            <label><input type="radio" name="question6" value="80°, 56°, 34°">80°, 56°, 34°</label>
-            <label><input type="radio" name="question6" value="45°, 35°, 100°">45°, 35°, 100°</label>
-            <label><input type="radio" name="question6" value="67°, 43°, 90°">67°, 43°, 90°</label>
+            <label><input class="quiz-input" type="radio" name="question6" value="80°, 56°, 34°">80°, 56°, 34°</label>
+            <label><input class="quiz-input" type="radio" name="question6" value="45°, 35°, 100°">45°, 35°, 100°</label>
+            <label><input class="quiz-input" type="radio" name="question6" value="67°, 43°, 90°">67°, 43°, 90°</label>
         </div>
 
         <div class="question-container">
             <p>What is the third angle of the triangle when two angles are 44° and 66°?</p>
-            <label><input type="radio" name="question7" value="70°">70°</label>
-            <label><input type="radio" name="question7" value="60°">60°</label>
-            <label><input type="radio" name="question7" value="55°">55°</label>
+            <label><input class="quiz-input" type="radio" name="question7" value="70°">70°</label>
+            <label><input class="quiz-input" type="radio" name="question7" value="60°">60°</label>
+            <label><input class="quiz-input" type="radio" name="question7" value="55°">55°</label>
         </div>
 
         <div class="question-container">
             <p>A triangle can have only ___ right angle(s).</p>
-            <label><input type="radio" name="question8" value="3">3</label>
-            <label><input type="radio" name="question8" value="2">2</label>
-            <label><input type="radio" name="question8" value="1">1</label>
+            <label><input class="quiz-input" type="radio" name="question8" value="3">3</label>
+            <label><input class="quiz-input" type="radio" name="question8" value="2">2</label>
+            <label><input class="quiz-input" type="radio" name="question8" value="1">1</label>
         </div>
 
         <div class="question-container">
             <p>An angle which is less than 90˚ is called _______ angle.</p>
-            <label><input type="radio" name="question9" value="Obtuse">Obtuse</label>
-            <label><input type="radio" name="question9" value="Right">Right</label>
-            <label><input type="radio" name="question9" value="Acute">Acute</label>
+            <label><input class="quiz-input" type="radio" name="question9" value="Obtuse">Obtuse</label>
+            <label><input class="quiz-input" type="radio" name="question9" value="Right">Right</label>
+            <label><input class="quiz-input" type="radio" name="question9" value="Acute">Acute</label>
         </div>
 
         <div class="question-container">
             <p>Each angle in an equilateral triangle is ______.</p>
-            <label><input type="radio" name="question10" value="60°">60°</label>
-            <label><input type="radio" name="question10" value="90°">90°</label>
-            <label><input type="radio" name="question10" value="80°">80°</label>
+            <label><input class="quiz-input" type="radio" name="question10" value="60°">60°</label>
+            <label><input class="quiz-input" type="radio" name="question10" value="90°">90°</label>
+            <label><input class="quiz-input" type="radio" name="question10" value="80°">80°</label>
         </div>
     </form>
     <button id="submit-btn">Submit</button>
     <div id="output"></div>
+
+    <footer class="footer">
+        <div class="footer-header">connect with me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/sweta1308/">github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/AgarwallaSweta/">twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">linkedin</a>
+            </li>
+        </ul>
+    </footer>
+
     <script src="quiz.js"></script>
 </body>
 </html>
