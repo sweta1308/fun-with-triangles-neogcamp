@@ -18,6 +18,10 @@ nav {
     border-bottom-right-radius: 1rem;
 }
 
+nav .link-active{
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
     padding: 0rem 2rem;
