@@ -4,7 +4,7 @@ const outputEl = document.querySelector("#output");
 
 calculateBtn.addEventListener("click", calculateArea);
 
-function calculateArea(a, b) {
+function calculateArea() {
     const base = inputs[0].value;
     const height = inputs[1].value;
     if (base == "") {
@@ -13,7 +13,7 @@ function calculateArea(a, b) {
     if (height == "") {
         outputEl.innerText = "Enter height."
     } else {
-    const area = 0.5 * a * b;
+    const area = 0.5 * base * height;
     outputEl.innerText = "The area of the triangle is " + area + " sq. cm.";
     };
 };
