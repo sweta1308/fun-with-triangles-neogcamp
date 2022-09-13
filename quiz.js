@@ -5,10 +5,10 @@ const outputResult = document.querySelector("#output");
 const correctAnswers = [
     "Obtuse",
     "180˚",
-    "Right angled",
+    "Obtuse",
     "Equilateral",
     "Scalene",
-    "45°, 35°, 100°",
+    "Isosceles",
     "70°",
     "1",
     "Acute",
