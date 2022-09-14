@@ -95,6 +95,14 @@ button {
     font-size: large;
 }
 
+.content {
+    min-height: 70vh;
+}
+
+.quiz-content {
+    min-height: 180vh;
+}
+
 
 
 
