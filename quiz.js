@@ -19,13 +19,14 @@ btnSubmit.addEventListener("click", finalScore);
 
 function finalScore() {
     const finalResults = new FormData(formQuiz);
-    let score = 0;
-    let index = 0;
-    for (let value of finalResults.values()) {
-        if (value === correctAnswers[index]) {
-            score = score + 1;
+    var score = 0;
+    var index = 0;
+    for (var value of finalResults.values()) {
+        if (value == correctAnswers[index]) {
+            score++;
+            
         }
         index = index + 1;
-    }
+    } 
     outputResult.innerText = "Your final score is " + score;
 }
